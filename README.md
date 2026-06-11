@@ -78,9 +78,10 @@ To run this application, you only need to have the following installed on your m
     ```
 
 3.  **Access the application:**
-    *   **Frontend UI:** [http://localhost](http://localhost)
-    *   **Django Admin Panel:** [http://localhost/admin/](http://localhost/admin/)
-    *   **Backend API Endpoints:** [http://localhost/api/notes/](http://localhost/api/notes/)
+    *   **Live App (Frontend):** [https://3-tier-django-app.projects.syedmehfooz.com](https://3-tier-django-app.projects.syedmehfooz.com)
+    *   **Live Django Admin Panel:** [https://3-tier-django-app.projects.syedmehfooz.com/admin/](https://3-tier-django-app.projects.syedmehfooz.com/admin/)
+    *   **Live API Endpoints:** [https://3-tier-django-app.projects.syedmehfooz.com/api/notes/](https://3-tier-django-app.projects.syedmehfooz.com/api/notes/)
+    *   **Local Development:** [http://localhost](http://localhost) (or port mapped on your host)
 
 ---
 
