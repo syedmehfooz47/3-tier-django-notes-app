@@ -1,5 +1,5 @@
 # Stage 1: Build dependencies in a virtual environment
-FROM python:3.9-slim AS builder
+FROM python:3.9 AS builder
 
 WORKDIR /app
 
