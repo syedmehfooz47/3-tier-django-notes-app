@@ -6,9 +6,9 @@ WORKDIR /app
 # Install build dependencies
 RUN apt-get update \
     && apt-get install -y --no-install-recommends \
-       gcc \
-       default-libmysqlclient-dev \
-       pkg-config \
+    gcc \
+    default-libmysqlclient-dev \
+    pkg-config \
     && rm -rf /var/lib/apt/lists/*
 
 # Create virtual environment and install packages
@@ -28,7 +28,7 @@ WORKDIR /app/backend
 # Install runtime dependencies for mysqlclient
 RUN apt-get update \
     && apt-get install -y --no-install-recommends \
-       default-libmysqlclient-dev \
+    default-libmysqlclient-dev \
     && rm -rf /var/lib/apt/lists/*
 
 # Copy virtual environment from builder stage

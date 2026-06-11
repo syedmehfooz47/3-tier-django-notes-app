@@ -91,6 +91,14 @@ Rather than relying on complex CORS settings or exposing multiple ports, Nginx h
 
 ---
 
+## 🌐 Docker Networking Design
+
+All containers run inside a custom, isolated bridge network called **`notes-app-nw`** defined in the `docker-compose.yml`:
+*   **Internal DNS Resolution:** Docker runs an embedded DNS server. Containers communicate with each other using their service names (`django_app`, `db`) as domain names. For example, Django connects to MySQL using the hostname `db` instead of a static IP address.
+*   **Internal Security & Port Isolation:** Only Nginx (`nginx_cont`) exposes its port (`80`) to the public host. The Django backend (`django_cont` on `8000`) and the database (`db_cont` on `3306`) remain isolated inside the bridge network, protecting them from direct external network exposure.
+
+---
+
 ## 🚀 How to Run the Infrastructure
 
 1.  **Clone the repository:**
