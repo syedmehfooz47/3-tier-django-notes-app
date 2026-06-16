@@ -115,4 +115,4 @@ All containers run inside a custom, isolated bridge network called **`notes-app-
 3.  **Access the application:**
     *   **Live App (Frontend):** [https://3-tier-django-app.projects.syedmehfooz.com](https://3-tier-django-app.projects.syedmehfooz.com)
     *   **Live Admin Panel:** [https://3-tier-django-app.projects.syedmehfooz.com/admin/](https://3-tier-django-app.projects.syedmehfooz.com/admin/)
-    *   **Local Development:** [http://localhost](http://localhost) (Nginx port `80`)
+    *   **Local Development:** [http://localhost](http://localhost/) (Nginx port `80`)
