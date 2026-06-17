@@ -15,7 +15,7 @@ pipeline{
         
          stage('Building'){
              steps{
-                 echo "This is building the code"
+                 echo "This is building the new code"
              }
          }
          stage('Test'){
