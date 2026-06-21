@@ -12,7 +12,19 @@ A production-grade, containerized 3-tier application built and optimized by **Sy
 
 ---
 
+## 📸 App Preview
+
+<div align="center">
+
+
+<img src="Assets/notes-app.png" alt="Tomato Menu Page" width="80%" style="border-radius: 8px;" />
+
+</div>
+
+
+
 ## 🏗️ Decoupled 3-Tier Architecture
+
 
 In modern production environments, frontends and backends are split into decoupled services. Nginx serves as the single entry point (reverse proxy) on port `80`, routing traffic based on request paths:
 
